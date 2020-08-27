@@ -84,6 +84,7 @@ export class PushNotificationObject {
 
 export class PushNotificationScheduleObject extends PushNotificationObject {
     date: Date;
+    allowWhileIdle?: boolean;
 }
 
 export class PushNotificationDeliveredObject {
